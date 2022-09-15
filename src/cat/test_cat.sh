@@ -17,7 +17,7 @@ do
             then
               (( COUNTER_SUCCESS++ ))
             else
-              echo "$TEST1" >> log.txt
+              echo "$TEST1" >> log_cat.txt
               (( COUNTER_FAIL++ ))
           fi
           rm s21_cat.txt cat.txt
@@ -38,7 +38,7 @@ do
             then
               (( COUNTER_SUCCESS++ ))
             else
-              echo "$TEST1" >> log.txt
+              echo "$TEST1" >> log_cat.txt
               (( COUNTER_FAIL++ ))
           fi
           rm s21_cat.txt cat.txt
@@ -63,7 +63,7 @@ do
             then
               (( COUNTER_SUCCESS++ ))
             else
-              echo "$TEST1" >> log.txt
+              echo "$TEST1" >> log_cat.txt
               (( COUNTER_FAIL++ ))
           fi
           rm s21_cat.txt cat.txt
@@ -92,7 +92,7 @@ do
                 then
                   (( COUNTER_SUCCESS++ ))
                 else
-                  echo "$TEST1" >> log.txt
+                  echo "$TEST1" >> log_cat.txt
                   (( COUNTER_FAIL++ ))
               fi
               rm s21_cat.txt cat.txt
